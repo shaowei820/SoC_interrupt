@@ -1,4 +1,4 @@
-# SoC_HW2：ZYNQ LED 中斷控制設計  
+ # SoC_HW2：ZYNQ LED 中斷控制設計  
 本專案實作一個基於 ZYNQ 的 SoC 系統，透過 AXI GPIO 控制 LED 與接收 Switch 輸入，並使用中斷方式控制 LED 顯示行為。系統可部署於 ZedBoard，觀察按鍵觸發中斷與 LED 狀態變化。
 
  系統架構
@@ -45,4 +45,19 @@ SoC_HW2/
   - 將 LED 歸零
   - 中斷次數加一
 - 主迴圈控制 LED 流水燈行為
+
+## 查手冊
+#### IRQ numbers
+![image](https://github.com/user-attachments/assets/82b3559a-7b6a-480a-a663-11eccb6c37c8)
+
+#### pending register
+![image](https://github.com/user-attachments/assets/68c339c4-eb2d-4f9a-a2f1-be6f9d067ca6)
+
+#### Disable / Mask Register
+![image](https://github.com/user-attachments/assets/f1888105-729e-4d34-9ade-6e2165e1888f)
+
+
+
+
+
 
